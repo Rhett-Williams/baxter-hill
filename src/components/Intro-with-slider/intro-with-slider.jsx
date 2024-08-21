@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Link } from "gatsby";
-import IntroVideo from "../../../../vie_gatsby/public/video/intro-video.mp4";
+import IntroVideo from "../../../public/video/intro-video.mp4";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
