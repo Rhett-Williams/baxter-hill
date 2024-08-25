@@ -53,9 +53,9 @@ const About = () => {
 export const Head = () => {
   return (
     <>
-      <title>Vie - About Dark</title>
+      <title>Baxter Hill - About</title>
     </>
-  )
-}
+  );
+};
 
 export default About;
