@@ -40,9 +40,10 @@ const IntroWithSlider = ({ sliderRef }) => {
                 data-overlay-dark="6"
               >
                 <video
+                  playsInline
                   ref={vidRef}
                   autoplay
-                  muted={true}
+                  muted
                   loop
                   style={{ position: "absolute", width: "100%" }}
                 >
