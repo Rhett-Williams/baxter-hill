@@ -45,7 +45,12 @@ const IntroWithSlider = ({ sliderRef }) => {
                   autoplay
                   muted
                   loop
-                  style={{ position: "absolute", width: "100%" }}
+                  style={{
+                    position: "absolute",
+                    width: "100%",
+                    objectFit: "cover",
+                    height: "100%",
+                  }}
                 >
                   <source src={IntroVideo} type="video/mp4" />
                   Your browser does not support the video tag.
